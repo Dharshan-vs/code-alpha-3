@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiplayer Game Server</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Multiplayer Game Server</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#join">Join Game</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>About the Game</h2>
+      <p>Welcome to the ultimate multiplayer experience! enjoy real-time gaming with advanced matchmaking and live updates.</p>
+    </div>
+  </section>
+
+  <section id="features" class="features-section">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <h3>Real-Time Updates</h3>
+          <p>Experience lag-free gaming with instant updates.</p>
+        </div>
+        <div class="feature">
+          <h3>Player Authentication</h3>
+          <p>Secure login for all players.</p>
+        </div>
+        <div class="feature">
+          <h3>Global Matchmaking</h3>
+          <p>Find opponents from around the world.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="join" class="join-section">
+    <div class="container">
+      <h2>Join the Game</h2>
+      <form action="/join" method="POST" class="join-form">
+        <input type="text" name="username" placeholder="Enter your username" required>
+        <input type="password" name="password" placeholder="Enter your password" required>
+        <button type="submit">Join Now</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
